@@ -4,8 +4,52 @@ COMMON
 
 ******/
 body {
-  font-family: "monospace", sans-serif;
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 .font-primary {
   color: #a145ed;
+
+}
+.elegant{
+    /** What a really want is ms madi. The link should be in the head. 
+    font-family: 'Ms Madi', cursive;
+    **/
+   font-family:'Times New Roman', Times, serif;
+   font-style: italic;
+}
+/*******
+
+ABOUT
+
+*******/
+
+#about { 
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+    
+}
+#about img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
+}
+#about .name {
+    font-size: 24px;
+}
+#about .occupation {
+  font-size: 18px;
+  color: #D5C0E5;
+  margin-bottom: 10 px;
+}
+#about .skills {
+  font-size: 14px;
+  color: #a145ed;
+  margin-bottom: 10px;
+}
+#about .email {
+  margin-top: 14px;
+  font-size: 13px;
 }
