@@ -1,0 +1,94 @@
+/******
+
+COMMON 
+
+******/
+body {
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.font-primary {
+  color: #D5A42F;
+
+}
+.elegant{  
+   font-style:  italic;
+   font-weight: 700;
+   font-variant: small-caps;
+}
+p {
+  font-size: 18px;
+}
+h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/*******
+
+ABOUT
+
+*******/
+
+#about { 
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+    position: relative;
+  
+}
+#about img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
+}
+#about .name {
+    font-size: 24px;
+    
+}
+#about .occupation {
+  font-size: 18px;
+  color: #D1BD8E;
+  margin-bottom: 10 px;
+}
+#about .skills {
+  font-size: 14px;
+  color: #D5A42F;
+  margin-bottom: 10px;
+}
+#about .email {
+  margin-top: 14px;
+  font-size: 13px;
+}
+#about .icons{
+  margin: 20px, 30px;
+  font-size: 40px;
+}
+#about .icons a{
+  color: #000000;
+  cursor: pointer;
+}
+/***** to learn: make the icons this color: #D5A42F; 
+and a bit larger when you mouse over them with JavaSript
+*****/
+
+/******
+
+project
+
+******/
+
+#project {
+  max-width: 50%;
+  position: relative;
+}
+#project .card img{
+  width: 100%
+}
+#project .card-title{
+  font-weight: bold;
+  font-size: 18px;
+
+}
